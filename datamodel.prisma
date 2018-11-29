@@ -1,0 +1,7 @@
+type ExampleType {
+    id: ID! @unique
+    createdAt: DateTime!
+    updatedAt: DateTime!
+    firstList: [String!]
+    secondList: [String!]!
+}
